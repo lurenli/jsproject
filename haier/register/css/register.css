@@ -1,0 +1,454 @@
+.clearfix:after {
+  content: '\20';
+  clear: both;
+  display: block;
+  height: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  vertical-align: middle;
+}
+
+.margin {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#top {
+  height: 120px;
+}
+#top .content {
+  overflow: hidden;
+  padding: 20px 0;
+  position: relative;
+  height: 80px;
+  margin: 0 auto;
+}
+#top .content a.c-left {
+  float: left;
+  width: 130px;
+  height: 65px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+#top .content a.c-left img {
+  width: 168px;
+  height: 1531px;
+}
+#top .content img.c-center {
+  width: 170px;
+  height: 60px;
+  float: left;
+  margin: -6px 0 0 5px;
+  padding-left: 5px;
+  display: inline-block;
+}
+#top .content span {
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: normal;
+}
+#top .content a.c-right {
+  float: right;
+  color: #005aaa;
+  font-size: 14px;
+  margin-top: 40px;
+  line-height: 60px;
+}
+
+.zc {
+  height: 96px;
+  background: #f2f2f2;
+  position: relative;
+}
+.zc .content {
+  margin: 0 auto;
+  padding: 31px 0;
+  height: 34px;
+  overflow: hidden;
+  text-align: center;
+}
+.zc .content .zc1 {
+  width: 156px;
+  height: 34px;
+  line-height: 34px;
+  color: #ffffff;
+  font-size: 14px;
+  float: left;
+  background: url(../images/t1.png) no-repeat;
+}
+.zc .content .zc1 i {
+  float: left;
+  margin-left: 15px;
+  font-size: 18px;
+}
+.zc .content .zc1 span {
+  float: right;
+  margin-right: 45px;
+}
+.zc .content .zc2 {
+  width: 156px;
+  height: 34px;
+  line-height: 34px;
+  color: #ffffff;
+  font-size: 14px;
+  float: left;
+  background: url(../images/t2.png) no-repeat;
+}
+.zc .content .zc2 i {
+  float: left;
+  margin-left: 15px;
+  font-size: 18px;
+}
+.zc .content .zc2 span {
+  float: right;
+  margin-right: 45px;
+}
+.zc .content .zc3 {
+  width: 156px;
+  height: 34px;
+  line-height: 34px;
+  color: #ffffff;
+  font-size: 14px;
+  float: left;
+  background: url(../images/t4.png) no-repeat;
+}
+.zc .content .zc3 i {
+  float: left;
+  margin-left: 15px;
+  font-size: 18px;
+}
+.zc .content .zc3 span {
+  float: right;
+  margin-right: 45px;
+}
+.zc .content .zc-right {
+  float: right;
+  margin-right: 10px;
+  width: 170px;
+  height: 30px;
+}
+.zc .content .zc-right .yonghu {
+  width: 80px;
+  height: 30px;
+  background: #2979FF;
+  float: left;
+}
+.zc .content .zc-right .yonghu a {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 30px;
+}
+.zc .content .zc-right p {
+  width: 1px;
+  height: 30px;
+  float: left;
+  background: #999;
+  margin: 0 4px;
+}
+.zc .content .zc-right .wdz {
+  width: 80px;
+  height: 30px;
+  float: right;
+  background: #fff;
+}
+.zc .content .zc-right .wdz a {
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+}
+
+#main {
+  height: 448px;
+}
+#main .m-left {
+  width: 620px;
+  height: 100%;
+  float: left;
+}
+#main .m-left form {
+  width: 440px;
+  height: 100%;
+  margin-left: 192px;
+}
+#main .m-left form label {
+  float: left;
+  font-size: 14px;
+  line-height: 40px;
+  color: #606060;
+  width: 85px;
+  height: 40px;
+  text-align: center;
+  margin-right: 12px;
+}
+#main .m-left form input {
+  float: left;
+  width: 198px;
+  padding: 10px 14px;
+  height: 16px;
+  overflow: hidden;
+  border: 1px solid #e6e6e;
+  margin-bottom: 15px;
+}
+#main .m-left form span {
+  position: absolute;
+  width: 80px;
+  height: 38px;
+  background: red;
+  right: 100px;
+  top: 21px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 38px;
+  text-align: center;
+}
+#main .m-left form .dianji {
+  width: 126px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #2979FF;
+  color: #fff;
+  margin-left: 89px;
+  border-radius: 3px;
+}
+#main .m-left form .ts1 {
+  float: left;
+  color: #606060;
+  font-size: 12px;
+  line-height: 41px;
+  width: 85px;
+  overflow: hidden;
+  background: url(../images/xb.png) 0 12px no-repeat;
+  padding-left: 15px;
+}
+#main .m-left .one {
+  display: block;
+}
+#main .m-left .one .phone {
+  display: block;
+}
+#main .m-left .one .phone .tel {
+  width: 427px;
+  height: 41px;
+  padding-top: 20px;
+}
+#main .m-left .one .phone .yzm {
+  width: 427px;
+  height: 41px;
+  padding-top: 20px;
+  position: relative;
+}
+#main .m-left .one .phone .sjyzm {
+  width: 427px;
+  height: 41px;
+  padding-top: 20px;
+  position: relative;
+}
+#main .m-left .one .emali {
+  display: none;
+}
+#main .m-left .one .emali .tel {
+  width: 427px;
+  height: 41px;
+  padding-top: 20px;
+}
+#main .m-left .one .emali .yzm {
+  width: 427px;
+  height: 41px;
+  padding-top: 20px;
+  position: relative;
+}
+#main .m-left .one .ck {
+  margin: 20px 0;
+  text-align: left;
+}
+#main .m-left .one .ck .te {
+  width: 13px;
+  height: 13px;
+  margin-top: 5px;
+}
+#main .m-left .one .ck a {
+  color: #005aaa;
+  font-size: 14px;
+  line-height: 14px;
+}
+#main .m-left .one .ff a.tel {
+  color: #666;
+}
+#main .m-left .one .ff a {
+  color: blue;
+  font-size: 14px;
+}
+#main .m-left .two {
+  display: none;
+}
+#main .m-left .two p {
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 15px;
+}
+#main .m-left .two .tel {
+  width: 427px;
+  height: 41px;
+  padding-top: 20px;
+}
+#main .m-left .two .yzm {
+  width: 427px;
+  height: 41px;
+  padding-top: 20px;
+  position: relative;
+  margin-bottom: 30px;
+}
+#main .m-left .three {
+  display: none;
+}
+#main .m-left .three p {
+  color: #666;
+  font-size: 16px;
+  margin-top: 50px;
+}
+#main .m-left .three .left {
+  width: 126px;
+  height: 40px;
+  background: #333;
+  text-align: center;
+  float: left;
+  color: #fff;
+  line-height: 40px;
+  font-size: 18px;
+  margin: 20px;
+}
+#main .m-left .three .right {
+  width: 126px;
+  height: 40px;
+  background: #005AAA;
+  text-align: center;
+  float: left;
+  color: #fff;
+  line-height: 40px;
+  font-size: 18px;
+  margin: 20px;
+}
+#main .m-right {
+  padding: 15px 10px 5px 15px;
+  width: 220px;
+  height: 396px;
+  background: #f6f6f6;
+  float: right;
+  margin-top: 20px;
+}
+#main .m-right .title {
+  color: #797979;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 21px;
+}
+#main .m-right p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #b8b8b8;
+  line-height: 21px;
+}
+#main .m-right ul li {
+  font-size: 14px;
+  color: #b8b8b8;
+  line-height: 21px;
+  background: url(../images/xb.png) -20px -213px no-repeat;
+  padding-left: 12px;
+}
+#main .m-right .gd a {
+  float: right;
+  color: #797979;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#footer {
+  height: 200px;
+  text-align: center;
+}
+#footer .f-t {
+  margin-top: 30px;
+  height: 30px;
+  text-align: center;
+}
+#footer .f-t a {
+  font-size: 12px;
+  line-height: 30px;
+  color: #666;
+}
+#footer .f-t span {
+  margin: 0 4px;
+  font-size: 12px;
+  line-height: 30px;
+  color: #999;
+}
+#footer p {
+  line-height: 25px;
+  color: #999;
+  font-size: 12px;
+}
+#footer p img {
+  display: inline-block;
+  margin: 0 6px;
+}
+#footer p:nth-of-type(3) {
+  margin-top: 20px;
+}
+
+#all-top {
+  position: fixed;
+  right: 5px;
+  bottom: 40px;
+  border: 1px solid #999;
+  width: 50px;
+  height: 50px;
+}
+#all-top a {
+  width: 50px;
+  height: 50px;
+  display: block;
+  background: url(../../index/images/index_new_icos.png) no-repeat;
+  background-position: right -190px;
+}
+
+#all-top:hover a {
+  background: url(../../index/images/index_new_icos.png) no-repeat;
+  background-position: right -150px;
+}
+
+/*# sourceMappingURL=register.css.map */

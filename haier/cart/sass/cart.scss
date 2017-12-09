@@ -1,0 +1,387 @@
+@charset "utf-8";
+@import "var";
+@import "public";
+.margin{
+    margin: $center;
+    width:1000px;
+}
+#top{
+//  width: $w;
+    height: 35px;
+    background: #f6f6f6;
+    .l{
+        float: left;
+       i{
+          display: inline-block;
+          background-position: 0 3px ; 
+          width:15px;
+          height:20px;
+          background-image: url(../../index/images/index_new_icos.png);
+          background-repeat: no-repeat;
+        }
+        span{
+            color:#333;
+            font-size:$fsize;
+            line-height: 35px
+       }
+    }
+    ul{
+         float: right;
+         height:$height;
+        .yi{
+            margin-right:20px;
+        }
+        li{
+            float: left;  
+            height:$height;
+           i{
+            font-size:$fsize;
+            line-height: 35px;
+            color: #999;
+            }
+        .te{
+             padding:3px 5px;
+             width: 35px;
+             height: 24px;
+             margin-left:5px;
+             border-radius:3px;
+             background:#33beff;
+             color:#fff;
+             }
+        span{
+            font-size: $fsize;
+            line-height: 35px;
+            color: #999;
+            margin:0 5px;
+        }
+        a{
+           font-size: $fsize;
+            line-height: 35px;
+            color: #999;
+            
+        }
+        a:hover{
+            color:blue;
+        }
+        .te:hover{color:#fff}
+        }
+    }
+}
+#content{
+    height:1100px;
+    .logo{
+        height: 95px;
+       .logo-left{
+            float:left;
+            width:220px;
+            a{
+                img{
+                    display: inline-block;
+                }
+            }
+            span{
+                font-size:20px;
+                color:#555;
+                line-height:95px;
+                margin-left:20px;
+            }
+         }
+        .logo-right{
+            float:right;
+            height:95px;
+            .r1{
+                    width: 200px;
+                    color: #fff;
+                    height: 30px;
+                    line-height: 30px;
+                    font-size: 15px;
+                    margin: 32px 0;
+                    float: left;
+                    text-align: center;
+                    background: #23519e;
+            }
+            i.jt1{
+                   background: url(../images/xb.png) no-repeat 0 -368px;
+                   display: inline-block;
+                   width:20px;
+                   height:30px;
+                   margin:32px 0;
+                   float: left;
+                   }
+            .r2{
+                    width: 200px;
+                    color: #fff;
+                    height: 30px;
+                    line-height: 30px;
+                    font-size: 15px;
+                    margin: 32px 0;
+                    float: left;
+                    text-align: center;
+                    background:#a7b0b5;
+            }
+            i.jt2{
+                   background: url(../images/xb.png) no-repeat 0 -403px;
+                   display: inline-block;
+                   width:20px;
+                   height:30px;
+                   margin:32px 0;
+                   float: left;
+                 }
+            .r3{
+                    width: 200px;
+                    color: #fff;
+                    height: 30px;
+                    line-height: 30px;
+                    font-size: 15px;
+                    margin: 32px 0;
+                    float: left;
+                    text-align: center;
+                    background:#a7b0b5;
+            }
+        }
+    }
+    .logo-up{
+        height:48px;
+        width:998px;
+        margin-bottom:20px;
+        border:1px solid #2979FF;
+        .up-l{
+            width:480px;
+            float:left;
+            height:48px;
+            i{
+                width: 23px;
+                height: 21px;
+                float: left;
+                display: inline-block;
+                margin: 13px 16px -3px 20px;
+                background: url(../images/xb2.png) no-repeat  0 -332px;
+            }
+            span{
+                font-size:11px;
+                line-height:48px;
+                color:#333;
+                float: left;
+            }
+            a{
+                float:left;
+                margin: 13px 0px 13px 8px;
+                border-radius: 5px;
+                background: #005aa9;
+                text-align: center;
+                width:75px;
+                color:#fff;
+                font-size:12px;
+                line-height:26px;
+                height:26px;
+            }
+        }
+        .up-r{
+            float:right;
+            height:28px;
+            width:230px;
+            padding:10px 0;
+            span{
+                float:left;
+                font-size:12px;
+                line-height:28px;
+                color:#333;
+                margin-right:10px;
+            }
+            p{
+               float:left;
+               width:150px;
+               height:28px;
+               border:1px solid #999;
+                font-size:12px;
+                line-height:28px;
+                color:#333; 
+                text-align: center;
+            }
+        }
+}
+}
+#xieyi{
+    height:310px;
+    width:100%;
+    background:#fff;
+    .x-top{
+        height:104px;
+        ul{
+            height:43px;
+            padding: 35px 0 25px;
+            border-bottom: 1px #eaeaea solid;
+           li{
+               float:left;
+               width:25%;
+               position: relative;
+              a{
+                  padding-left:25px;
+                  display: block;
+                 i{
+                      background:url(../../index/images/index_new_icos.png) no-repeat;
+                      width:43px;
+                      height:43px;
+                      float:left;
+                      display: inline-block;
+                      vertical-align: middle;
+                      margin-right: 5px;
+                  } 
+              h4{
+                  color:#333;
+                  font-size:12px; 
+                  line-height: 20px; 
+                  text-align: center; 
+              }
+              p{
+                color:#999;
+                font-size:12px; 
+                line-height: 20px;  
+              }
+              }
+              span{
+                    position: absolute;
+                    height:33px;
+                    right: 0;
+                    vertical-align: middle;
+                    top:5px;
+                    width:1px;
+                    margin:0;
+                   background: #eaeaea;
+              }
+           }
+           li:nth-child(1) i{
+                background-position-y:-444px;
+            }
+            li:nth-child(2) i{
+                background-position:-50px -444px;
+            }
+            li:nth-child(3) i{
+                background-position:-97px -444px;
+            }
+            li:nth-child(4) i{
+                background-position:-144px -444px;
+            }
+        }
+    }
+    .x-bottom{
+        padding: 17px 0 0;
+        height:146px;
+        .b-left{
+            width:760px;
+            height:146px;
+            padding-left:10px;
+            float:left;
+            span{
+                width:1px;
+                height:146px;
+                background:#eaeaea;
+                float:right;
+                margin-right:20px;
+            }
+            .help{
+               float:left;
+               width:146px;
+               height:146px;
+               dt{
+                    color: #333;
+                    margin-bottom: 10px;
+                    font-size:12px;
+                    line-height:21px;
+               }
+               dd{
+                   a{
+                       line-height:20px;
+                       color:#999;
+                       font-size:12px;
+                   }
+               } 
+               dd:hover a{
+                   color:#2979ff;
+               }
+            }
+        }
+        .b-right{
+            float:right;
+            width:200px;
+            height:82px;
+            padding:28px 0 0;
+            a{
+                display: block;
+                width: 128px;
+                height: 28px;
+                line-height: 28px;
+                margin: 0 auto 24px;
+                border: 1px #eaeaea solid;
+                i{
+                    background:url(../../index/images/index_new_icos.png) no-repeat;
+                    width:22px;
+                    height:22px;
+                    margin:0 6px 0 22px;
+                    vertical-align: middle;
+                    background-position: -72px -201px;
+                    display: inline-block;
+                }
+                span{
+                    color:#333;
+                    font-size:12px;
+                    line-height:28px;
+                }
+            }
+            a:hover span{
+                color:#2979ff;
+            }
+        }
+    }
+}
+//       页脚
+#footer{
+    height:200px;
+    text-align: center;
+    .f-t{
+        height:30px;
+        text-align: center;
+            a{
+                font-size:$fsize;
+                line-height: 30px;
+                color:#666;
+            }
+            span{
+                margin:0 4px;
+                font-size:$fsize;
+                line-height: 30px;
+                color:#999;
+            }
+    }
+    p{
+      line-height: 25px;
+       color:#999; 
+       font-size:$fsize;
+       img{
+           display: inline-block;
+           margin:0 6px;
+       } 
+    }
+    p:nth-of-type(3){
+        margin-top:20px;
+    }
+}
+#all-top{
+        position: fixed;
+        right: 5px;
+        bottom: 40px;
+        border:1px solid #999;
+        width: 50px;
+        height:50px;
+        a{
+            width:50px;
+            height:50px;
+            display: block;
+            background:url(../../index/images/index_new_icos.png) no-repeat;
+            background-position:right -190px;
+        }
+}
+#all-top:hover a{
+            background:url(../../index/images/index_new_icos.png) no-repeat;
+            background-position:right -150px;
+}

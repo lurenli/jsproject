@@ -1,0 +1,41 @@
+$n:none;
+$z:0;
+$w:1280px;
+$width:100%;
+$height:35px;
+$family:'microsoft yahei';
+$fsize:12px;
+$center:0 auto;
+$color:(cyan:#53cac3,gray1:#333333,gray2:#666666,white:#ffffff,blue:#485159);
+
+@mixin f($dir:left){
+	float:$dir;
+}
+
+@mixin m($t:0,$r:0,$b:0,$l:0){
+	margin:$t $r $b $l;
+}
+@mixin p($t:0,$r:0,$b:0,$l:0){
+	padding:$t $r $b $l;
+}
+
+@mixin bd($w,$h,$c,$color,$r){
+	width:$w;
+	height:$h;
+	background:$c;
+	border:1px solid $color;
+	border-radius:$r;
+}
+
+@mixin bd2($dir,$c,$s:solid){
+	border-#{$dir}:1px $s $c;
+}
+
+.clearfix:after{
+	content:'\20';
+	clear:both;
+	display:block;
+	height:0;
+}
+
+

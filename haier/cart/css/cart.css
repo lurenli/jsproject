@@ -1,0 +1,432 @@
+.clearfix:after {
+  content: '\20';
+  clear: both;
+  display: block;
+  height: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background: #fff;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  vertical-align: middle;
+}
+
+.margin {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#top {
+  height: 35px;
+  background: #f6f6f6;
+}
+#top .l {
+  float: left;
+}
+#top .l i {
+  display: inline-block;
+  background-position: 0 3px;
+  width: 15px;
+  height: 20px;
+  background-image: url(../../index/images/index_new_icos.png);
+  background-repeat: no-repeat;
+}
+#top .l span {
+  color: #333;
+  font-size: 12px;
+  line-height: 35px;
+}
+#top ul {
+  float: right;
+  height: 35px;
+}
+#top ul .yi {
+  margin-right: 20px;
+}
+#top ul li {
+  float: left;
+  height: 35px;
+}
+#top ul li i {
+  font-size: 12px;
+  line-height: 35px;
+  color: #999;
+}
+#top ul li .te {
+  padding: 3px 5px;
+  width: 35px;
+  height: 24px;
+  margin-left: 5px;
+  border-radius: 3px;
+  background: #33beff;
+  color: #fff;
+}
+#top ul li span {
+  font-size: 12px;
+  line-height: 35px;
+  color: #999;
+  margin: 0 5px;
+}
+#top ul li a {
+  font-size: 12px;
+  line-height: 35px;
+  color: #999;
+}
+#top ul li a:hover {
+  color: blue;
+}
+#top ul li .te:hover {
+  color: #fff;
+}
+
+#content {
+  height: 1100px;
+}
+#content .logo {
+  height: 95px;
+}
+#content .logo .logo-left {
+  float: left;
+  width: 220px;
+}
+#content .logo .logo-left a img {
+  display: inline-block;
+}
+#content .logo .logo-left span {
+  font-size: 20px;
+  color: #555;
+  line-height: 95px;
+  margin-left: 20px;
+}
+#content .logo .logo-right {
+  float: right;
+  height: 95px;
+}
+#content .logo .logo-right .r1 {
+  width: 200px;
+  color: #fff;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  margin: 32px 0;
+  float: left;
+  text-align: center;
+  background: #23519e;
+}
+#content .logo .logo-right i.jt1 {
+  background: url(../images/xb.png) no-repeat 0 -368px;
+  display: inline-block;
+  width: 20px;
+  height: 30px;
+  margin: 32px 0;
+  float: left;
+}
+#content .logo .logo-right .r2 {
+  width: 200px;
+  color: #fff;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  margin: 32px 0;
+  float: left;
+  text-align: center;
+  background: #a7b0b5;
+}
+#content .logo .logo-right i.jt2 {
+  background: url(../images/xb.png) no-repeat 0 -403px;
+  display: inline-block;
+  width: 20px;
+  height: 30px;
+  margin: 32px 0;
+  float: left;
+}
+#content .logo .logo-right .r3 {
+  width: 200px;
+  color: #fff;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  margin: 32px 0;
+  float: left;
+  text-align: center;
+  background: #a7b0b5;
+}
+#content .logo-up {
+  height: 48px;
+  width: 998px;
+  margin-bottom: 20px;
+  border: 1px solid #2979FF;
+}
+#content .logo-up .up-l {
+  width: 480px;
+  float: left;
+  height: 48px;
+}
+#content .logo-up .up-l i {
+  width: 23px;
+  height: 21px;
+  float: left;
+  display: inline-block;
+  margin: 13px 16px -3px 20px;
+  background: url(../images/xb2.png) no-repeat 0 -332px;
+}
+#content .logo-up .up-l span {
+  font-size: 11px;
+  line-height: 48px;
+  color: #333;
+  float: left;
+}
+#content .logo-up .up-l a {
+  float: left;
+  margin: 13px 0px 13px 8px;
+  border-radius: 5px;
+  background: #005aa9;
+  text-align: center;
+  width: 75px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 26px;
+  height: 26px;
+}
+#content .logo-up .up-r {
+  float: right;
+  height: 28px;
+  width: 230px;
+  padding: 10px 0;
+}
+#content .logo-up .up-r span {
+  float: left;
+  font-size: 12px;
+  line-height: 28px;
+  color: #333;
+  margin-right: 10px;
+}
+#content .logo-up .up-r p {
+  float: left;
+  width: 150px;
+  height: 28px;
+  border: 1px solid #999;
+  font-size: 12px;
+  line-height: 28px;
+  color: #333;
+  text-align: center;
+}
+
+#xieyi {
+  height: 310px;
+  width: 100%;
+  background: #fff;
+}
+#xieyi .x-top {
+  height: 104px;
+}
+#xieyi .x-top ul {
+  height: 43px;
+  padding: 35px 0 25px;
+  border-bottom: 1px #eaeaea solid;
+}
+#xieyi .x-top ul li {
+  float: left;
+  width: 25%;
+  position: relative;
+}
+#xieyi .x-top ul li a {
+  padding-left: 25px;
+  display: block;
+}
+#xieyi .x-top ul li a i {
+  background: url(../../index/images/index_new_icos.png) no-repeat;
+  width: 43px;
+  height: 43px;
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+#xieyi .x-top ul li a h4 {
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+#xieyi .x-top ul li a p {
+  color: #999;
+  font-size: 12px;
+  line-height: 20px;
+}
+#xieyi .x-top ul li span {
+  position: absolute;
+  height: 33px;
+  right: 0;
+  vertical-align: middle;
+  top: 5px;
+  width: 1px;
+  margin: 0;
+  background: #eaeaea;
+}
+#xieyi .x-top ul li:nth-child(1) i {
+  background-position-y: -444px;
+}
+#xieyi .x-top ul li:nth-child(2) i {
+  background-position: -50px -444px;
+}
+#xieyi .x-top ul li:nth-child(3) i {
+  background-position: -97px -444px;
+}
+#xieyi .x-top ul li:nth-child(4) i {
+  background-position: -144px -444px;
+}
+#xieyi .x-bottom {
+  padding: 17px 0 0;
+  height: 146px;
+}
+#xieyi .x-bottom .b-left {
+  width: 760px;
+  height: 146px;
+  padding-left: 10px;
+  float: left;
+}
+#xieyi .x-bottom .b-left span {
+  width: 1px;
+  height: 146px;
+  background: #eaeaea;
+  float: right;
+  margin-right: 20px;
+}
+#xieyi .x-bottom .b-left .help {
+  float: left;
+  width: 146px;
+  height: 146px;
+}
+#xieyi .x-bottom .b-left .help dt {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 21px;
+}
+#xieyi .x-bottom .b-left .help dd a {
+  line-height: 20px;
+  color: #999;
+  font-size: 12px;
+}
+#xieyi .x-bottom .b-left .help dd:hover a {
+  color: #2979ff;
+}
+#xieyi .x-bottom .b-right {
+  float: right;
+  width: 200px;
+  height: 82px;
+  padding: 28px 0 0;
+}
+#xieyi .x-bottom .b-right a {
+  display: block;
+  width: 128px;
+  height: 28px;
+  line-height: 28px;
+  margin: 0 auto 24px;
+  border: 1px #eaeaea solid;
+}
+#xieyi .x-bottom .b-right a i {
+  background: url(../../index/images/index_new_icos.png) no-repeat;
+  width: 22px;
+  height: 22px;
+  margin: 0 6px 0 22px;
+  vertical-align: middle;
+  background-position: -72px -201px;
+  display: inline-block;
+}
+#xieyi .x-bottom .b-right a span {
+  color: #333;
+  font-size: 12px;
+  line-height: 28px;
+}
+#xieyi .x-bottom .b-right a:hover span {
+  color: #2979ff;
+}
+
+#footer {
+  height: 200px;
+  text-align: center;
+}
+#footer .f-t {
+  height: 30px;
+  text-align: center;
+}
+#footer .f-t a {
+  font-size: 12px;
+  line-height: 30px;
+  color: #666;
+}
+#footer .f-t span {
+  margin: 0 4px;
+  font-size: 12px;
+  line-height: 30px;
+  color: #999;
+}
+#footer p {
+  line-height: 25px;
+  color: #999;
+  font-size: 12px;
+}
+#footer p img {
+  display: inline-block;
+  margin: 0 6px;
+}
+#footer p:nth-of-type(3) {
+  margin-top: 20px;
+}
+
+#all-top {
+  position: fixed;
+  right: 5px;
+  bottom: 40px;
+  border: 1px solid #999;
+  width: 50px;
+  height: 50px;
+}
+#all-top a {
+  width: 50px;
+  height: 50px;
+  display: block;
+  background: url(../../index/images/index_new_icos.png) no-repeat;
+  background-position: right -190px;
+}
+
+#all-top:hover a {
+  background: url(../../index/images/index_new_icos.png) no-repeat;
+  background-position: right -150px;
+}
+
+/*# sourceMappingURL=cart.css.map */

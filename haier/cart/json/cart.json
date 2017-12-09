@@ -1,0 +1,26 @@
+ [{
+        "title": "海尔冰箱BCD-451WDEMU1",
+        "price": "3099",
+        "img": "images/1.png",
+        "sid": "1"
+
+    }, {
+
+        "title": "海尔冰箱BCD-572WDENU1",
+        "price": "3699",
+        "img": "images/2.png",
+        "sid": "2"
+    }, {
+
+        "title": "海尔冰箱BCD-258WDVLU1",
+        "price": "2899",
+        "img": "images/3.png",
+        "sid": "3"
+    }, {
+
+        "title": "海尔冷柜FCD-215SEA",
+        "price": "1299",
+        "img": "images/4.png",
+        "sid": "4"
+ }]
+
